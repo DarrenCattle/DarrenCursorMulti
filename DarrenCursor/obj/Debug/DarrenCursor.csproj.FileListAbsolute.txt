@@ -1,0 +1,58 @@
+c:\users\st28478\documents\visual studio 2013\Projects\DarrenCursor\DarrenCursor\bin\Debug\DarrenCursor.exe.config
+c:\users\st28478\documents\visual studio 2013\Projects\DarrenCursor\DarrenCursor\bin\Debug\DarrenCursor.exe
+c:\users\st28478\documents\visual studio 2013\Projects\DarrenCursor\DarrenCursor\bin\Debug\DarrenCursor.pdb
+c:\users\st28478\documents\visual studio 2013\Projects\DarrenCursor\DarrenCursor\bin\Debug\Microsoft.Kinect.Toolkit.Controls.dll
+c:\users\st28478\documents\visual studio 2013\Projects\DarrenCursor\DarrenCursor\bin\Debug\Microsoft.Kinect.Toolkit.dll
+c:\users\st28478\documents\visual studio 2013\Projects\DarrenCursor\DarrenCursor\bin\Debug\Microsoft.Kinect.Toolkit.Interaction.dll
+c:\users\st28478\documents\visual studio 2013\Projects\DarrenCursor\DarrenCursor\obj\Debug\DarrenCursor.csprojResolveAssemblyReference.cache
+c:\users\st28478\documents\visual studio 2013\Projects\DarrenCursor\DarrenCursor\obj\Debug\MainWindow.baml
+c:\users\st28478\documents\visual studio 2013\Projects\DarrenCursor\DarrenCursor\obj\Debug\MainWindow.g.cs
+c:\users\st28478\documents\visual studio 2013\Projects\DarrenCursor\DarrenCursor\obj\Debug\App.g.cs
+c:\users\st28478\documents\visual studio 2013\Projects\DarrenCursor\DarrenCursor\obj\Debug\DarrenCursor_MarkupCompile.cache
+c:\users\st28478\documents\visual studio 2013\Projects\DarrenCursor\DarrenCursor\obj\Debug\DarrenCursor.g.resources
+c:\users\st28478\documents\visual studio 2013\Projects\DarrenCursor\DarrenCursor\obj\Debug\DarrenCursor.Properties.Resources.resources
+c:\users\st28478\documents\visual studio 2013\Projects\DarrenCursor\DarrenCursor\obj\Debug\DarrenCursor.csproj.GenerateResource.Cache
+c:\users\st28478\documents\visual studio 2013\Projects\DarrenCursor\DarrenCursor\obj\Debug\DarrenCursor.exe
+c:\users\st28478\documents\visual studio 2013\Projects\DarrenCursor\DarrenCursor\obj\Debug\DarrenCursor.pdb
+C:\Users\Darren\Dropbox\Work Thermal Lab\Kinect Development\DarrenCursor\DarrenCursor\bin\Debug\DarrenCursor.exe.config
+C:\Users\Darren\Dropbox\Work Thermal Lab\Kinect Development\DarrenCursor\DarrenCursor\obj\Debug\DarrenCursor.exe
+C:\Users\Darren\Dropbox\Work Thermal Lab\Kinect Development\DarrenCursor\DarrenCursor\obj\Debug\DarrenCursor.pdb
+C:\Users\Darren\Dropbox\Work Thermal Lab\Kinect Development\DarrenCursor\DarrenCursor\bin\Debug\DarrenCursor.exe
+C:\Users\Darren\Dropbox\Work Thermal Lab\Kinect Development\DarrenCursor\DarrenCursor\bin\Debug\DarrenCursor.pdb
+C:\Users\Darren\Dropbox\Work Thermal Lab\Kinect Development\DarrenCursor\DarrenCursor\obj\Debug\DarrenCursor.csprojResolveAssemblyReference.cache
+C:\Users\Darren\Dropbox\Work Thermal Lab\Kinect Development\DarrenCursor\DarrenCursor\obj\Debug\MainWindow.baml
+C:\Users\Darren\Dropbox\Work Thermal Lab\Kinect Development\DarrenCursor\DarrenCursor\obj\Debug\MainWindow.g.cs
+C:\Users\Darren\Dropbox\Work Thermal Lab\Kinect Development\DarrenCursor\DarrenCursor\obj\Debug\App.g.cs
+C:\Users\Darren\Dropbox\Work Thermal Lab\Kinect Development\DarrenCursor\DarrenCursor\obj\Debug\DarrenCursor_MarkupCompile.cache
+C:\Users\Darren\Dropbox\Work Thermal Lab\Kinect Development\DarrenCursor\DarrenCursor\obj\Debug\DarrenCursor.g.resources
+C:\Users\Darren\Dropbox\Work Thermal Lab\Kinect Development\DarrenCursor\DarrenCursor\obj\Debug\DarrenCursor.Properties.Resources.resources
+C:\Users\Darren\Dropbox\Work Thermal Lab\Kinect Development\DarrenCursor\DarrenCursor\obj\Debug\DarrenCursor.csproj.GenerateResource.Cache
+C:\Users\Darren\Dropbox\Work Thermal Lab\Kinect Development\DarrenCursorMulti\DarrenCursor\bin\Debug\DarrenCursor.exe.config
+C:\Users\Darren\Dropbox\Work Thermal Lab\Kinect Development\DarrenCursorMulti\DarrenCursor\obj\Debug\DarrenCursor.exe
+C:\Users\Darren\Dropbox\Work Thermal Lab\Kinect Development\DarrenCursorMulti\DarrenCursor\obj\Debug\DarrenCursor.pdb
+C:\Users\Darren\Dropbox\Work Thermal Lab\Kinect Development\DarrenCursorMulti\DarrenCursor\obj\Debug\DarrenCursor.csprojResolveAssemblyReference.cache
+C:\Users\Darren\Dropbox\Work Thermal Lab\Kinect Development\DarrenCursorMulti\DarrenCursor\obj\Debug\MainWindow.baml
+C:\Users\Darren\Dropbox\Work Thermal Lab\Kinect Development\DarrenCursorMulti\DarrenCursor\obj\Debug\MainWindow.g.cs
+C:\Users\Darren\Dropbox\Work Thermal Lab\Kinect Development\DarrenCursorMulti\DarrenCursor\obj\Debug\App.g.cs
+C:\Users\Darren\Dropbox\Work Thermal Lab\Kinect Development\DarrenCursorMulti\DarrenCursor\obj\Debug\DarrenCursor_MarkupCompile.cache
+C:\Users\Darren\Dropbox\Work Thermal Lab\Kinect Development\DarrenCursorMulti\DarrenCursor\obj\Debug\DarrenCursor.g.resources
+C:\Users\Darren\Dropbox\Work Thermal Lab\Kinect Development\DarrenCursorMulti\DarrenCursor\obj\Debug\DarrenCursor.Properties.Resources.resources
+C:\Users\Darren\Dropbox\Work Thermal Lab\Kinect Development\DarrenCursorMulti\DarrenCursor\obj\Debug\DarrenCursor.csproj.GenerateResource.Cache
+C:\Users\Darren\Dropbox\Work Thermal Lab\Kinect Development\DarrenCursorMulti\DarrenCursor\bin\Debug\DarrenCursor.exe
+C:\Users\Darren\Dropbox\Work Thermal Lab\Kinect Development\DarrenCursorMulti\DarrenCursor\bin\Debug\DarrenCursor.pdb
+C:\Users\st28478\Dropbox\Work Thermal Lab\Kinect Development\DarrenCursorMulti\DarrenCursor\bin\Debug\DarrenCursor.exe.config
+C:\Users\st28478\Dropbox\Work Thermal Lab\Kinect Development\DarrenCursorMulti\DarrenCursor\obj\Debug\DarrenCursor.exe
+C:\Users\st28478\Dropbox\Work Thermal Lab\Kinect Development\DarrenCursorMulti\DarrenCursor\obj\Debug\DarrenCursor.pdb
+C:\Users\st28478\Dropbox\Work Thermal Lab\Kinect Development\DarrenCursorMulti\DarrenCursor\bin\Debug\DarrenCursor.exe
+C:\Users\st28478\Dropbox\Work Thermal Lab\Kinect Development\DarrenCursorMulti\DarrenCursor\bin\Debug\DarrenCursor.pdb
+C:\Users\st28478\Dropbox\Work Thermal Lab\Kinect Development\DarrenCursorMulti\DarrenCursor\bin\Debug\Microsoft.Kinect.Toolkit.Controls.dll
+C:\Users\st28478\Dropbox\Work Thermal Lab\Kinect Development\DarrenCursorMulti\DarrenCursor\bin\Debug\Microsoft.Kinect.Toolkit.dll
+C:\Users\st28478\Dropbox\Work Thermal Lab\Kinect Development\DarrenCursorMulti\DarrenCursor\bin\Debug\Microsoft.Kinect.Toolkit.Interaction.dll
+C:\Users\st28478\Dropbox\Work Thermal Lab\Kinect Development\DarrenCursorMulti\DarrenCursor\obj\Debug\DarrenCursor.csprojResolveAssemblyReference.cache
+C:\Users\st28478\Dropbox\Work Thermal Lab\Kinect Development\DarrenCursorMulti\DarrenCursor\obj\Debug\MainWindow.baml
+C:\Users\st28478\Dropbox\Work Thermal Lab\Kinect Development\DarrenCursorMulti\DarrenCursor\obj\Debug\MainWindow.g.cs
+C:\Users\st28478\Dropbox\Work Thermal Lab\Kinect Development\DarrenCursorMulti\DarrenCursor\obj\Debug\App.g.cs
+C:\Users\st28478\Dropbox\Work Thermal Lab\Kinect Development\DarrenCursorMulti\DarrenCursor\obj\Debug\DarrenCursor_MarkupCompile.cache
+C:\Users\st28478\Dropbox\Work Thermal Lab\Kinect Development\DarrenCursorMulti\DarrenCursor\obj\Debug\DarrenCursor.g.resources
+C:\Users\st28478\Dropbox\Work Thermal Lab\Kinect Development\DarrenCursorMulti\DarrenCursor\obj\Debug\DarrenCursor.Properties.Resources.resources
+C:\Users\st28478\Dropbox\Work Thermal Lab\Kinect Development\DarrenCursorMulti\DarrenCursor\obj\Debug\DarrenCursor.csproj.GenerateResource.Cache

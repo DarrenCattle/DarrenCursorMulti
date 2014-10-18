@@ -1,0 +1,24 @@
+﻿<Window x:Class="DarrenCursor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:k="http://schemas.microsoft.com/kinect/2013"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="640" Width="800">
+    <Grid>
+        <k:KinectSensorChooserUI HorizontalAlignment="Left" VerticalAlignment="Top" Name="sensorChooserUi" ></k:KinectSensorChooserUI>
+        <k:KinectUserViewer VerticalAlignment="Top" HorizontalAlignment="Center" k:KinectRegion.KinectRegion="{Binding ElementName=kinectRegion}" Height="100" />
+
+        <k:KinectRegion Name="kinectRegion">
+            <Grid>
+                <k:KinectTileButton x:Name="Panel_0" Label="Tint: 3" Click="ButtonOnClick0" Width="260" Height="200" HorizontalAlignment="Left" VerticalAlignment="Top" Background="#FF0E81A2" FontSize="16"/>
+                <k:KinectTileButton x:Name="Panel_1" Label="Tint: 3" Click="ButtonOnClick1" Width="260" Height="200" HorizontalAlignment="Center" VerticalAlignment="Top" Background="#FF0E81A2" FontSize="16"></k:KinectTileButton>
+                <k:KinectTileButton x:Name="Panel_2" Label="Tint: 3" Click="ButtonOnClick2" Width="260" Height="200" HorizontalAlignment="Right" VerticalAlignment="Top" Background="#FF0E81A2" FontSize="16"></k:KinectTileButton>
+                <k:KinectTileButton x:Name="Panel_3" Label="Tint: 3" Click="ButtonOnClick3" Width="260" Height="200" HorizontalAlignment="Left" VerticalAlignment="Center" Background="#FF0E81A2" FontSize="16"></k:KinectTileButton>
+                <k:KinectTileButton x:Name="Panel_4" Label="Tint: 3" Click="ButtonOnClick4" Width="260" Height="200" HorizontalAlignment="Center" VerticalAlignment="Center" Background="#FF0E81A2" FontSize="16"></k:KinectTileButton>
+                <k:KinectTileButton x:Name="Panel_5" Label="Tint: 3" Click="ButtonOnClick5" Width="260" Height="200" HorizontalAlignment="Right" VerticalAlignment="Center" Background="#FF0E81A2" FontSize="16"></k:KinectTileButton>
+                <k:KinectTileButton x:Name="Panel_6" Label="Tint: 3" Click="ButtonOnClick6" Width="260" Height="200" HorizontalAlignment="Left" VerticalAlignment="Bottom" Background="#FF0E81A2" FontSize="16"></k:KinectTileButton>
+                <k:KinectTileButton x:Name="Panel_7" Label="Tint: 3" Click="ButtonOnClick7" Width="260" Height="200" HorizontalAlignment="Center" VerticalAlignment="Bottom" Background="#FF0E81A2" FontSize="16"></k:KinectTileButton>
+                <k:KinectTileButton x:Name="Panel_8" Label="Tint: 3" Click="ButtonOnClick8" Width="260" Height="200" HorizontalAlignment="Right" VerticalAlignment="Bottom" Background="#FF0E81A2" FontSize="16"></k:KinectTileButton>
+            </Grid>
+        </k:KinectRegion>
+    </Grid>
+</Window>

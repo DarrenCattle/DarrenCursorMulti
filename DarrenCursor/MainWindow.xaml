@@ -1,0 +1,46 @@
+﻿<Window x:Class="DarrenCursor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:k="http://schemas.microsoft.com/kinect/2013"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="620" Width="900" Closed="Window_Closed">
+    <Grid>
+        <k:KinectSensorChooserUI HorizontalAlignment="Left" VerticalAlignment="Top" Name="sensorChooserUi" ></k:KinectSensorChooserUI>
+        <k:KinectUserViewer VerticalAlignment="Top" HorizontalAlignment="Center" k:KinectRegion.KinectRegion="{Binding ElementName=kinectRegion}" Height="100" />
+
+        <k:KinectRegion Name="kinectRegion">
+            <Grid HorizontalAlignment="Left" VerticalAlignment="Top">
+                <k:KinectTileButton x:Name="Panel0" Label="Tint: 0%, T_int: 27°C, I_tot: 1000 W/m^2" Click="Panel_Click" 
+                Width="300" Height="200" Background="#FF0E81A2" FontSize="14" HorizontalLabelAlignment="Center" VerticalLabelAlignment="Center" 
+                Opacity="0.2" Margin="0,0,592,390" Tag="0"/>
+                <k:KinectTileButton x:Name="Panel1" Label="Tint: 0%, T_int: 27°C, I_tot: 1000 W/m^2" Click="Panel_Click" 
+                Width="300" Height="200" Background="#FF0E81A2" FontSize="14" HorizontalLabelAlignment="Center" VerticalLabelAlignment="Center" 
+                Opacity="0.2" Margin="296,0,296,390" Tag="1"/>
+                <k:KinectTileButton x:Name="Panel2" Label="Tint: 0%, T_int: 27°C, I_tot: 1000 W/m^2" 
+                Width="300" Height="200" Background="#FF0E81A2" FontSize="14" HorizontalLabelAlignment="Center" VerticalLabelAlignment="Center" 
+                Opacity="0.2" Click="Panel_Click" Margin="592,0,0,390" Tag="2"/>
+
+                <k:KinectTileButton x:Name="Panel3" Label="Tint: 0%, T_int: 27°C, I_tot: 1000 W/m^2" Click="Panel_Click" 
+                Width="300" Height="200" Background="#FF0E81A2" FontSize="14" HorizontalLabelAlignment="Center" VerticalLabelAlignment="Center" 
+                Opacity="0.2" Margin="0,192,592,198" Tag="3"/>
+                <k:KinectTileButton x:Name="Panel4" Label="Tint: 0%, T_int: 27°C, I_tot: 1000 W/m^2" Click="Panel_Click" 
+                Width="300" Height="200" Background="#FF0E81A2" FontSize="14" HorizontalLabelAlignment="Center" VerticalLabelAlignment="Center" 
+                Opacity="0.2" Margin="296,192,296,198" Tag="4"/>
+                <k:KinectTileButton x:Name="Panel5" Label="Tint: 0%, T_int: 27°C, I_tot: 1000 W/m^2" Click="Panel_Click"
+                Width="300" Height="200" Background="#FF0E81A2" FontSize="14" HorizontalLabelAlignment="Center" VerticalLabelAlignment="Center" 
+                Opacity="0.2" Margin="592,192,0,198" Tag="5"/>
+
+                <k:KinectTileButton x:Name="Panel6" Label="Tint: 0%, T_int: 27°C, I_tot: 1000 W/m^2" Click="Panel_Click" 
+        	    Width="300" Height="200" Background="#FF0E81A2" FontSize="14" HorizontalLabelAlignment="Center" VerticalLabelAlignment="Center" 
+        	    Opacity="0.2" Margin="0,385,592,5" Tag="6"/>
+                <k:KinectTileButton x:Name="Panel7" Label="Tint: 0%, T_int: 27°C, I_tot: 1000 W/m^2" Click="Panel_Click" 
+        	    Width="300" Height="200" Background="#FF0E81A2" FontSize="14" HorizontalLabelAlignment="Center" VerticalLabelAlignment="Center" 
+        	    Opacity="0.2" Margin="296,385,296,5" Tag="7"/>
+                <k:KinectTileButton x:Name="Panel8" Label="Tint: 0%, T_int: 27°C, I_tot: 1000 W/m^2" Click="Panel_Click" 
+        	    Width="300" Height="200" Background="#FF0E81A2" FontSize="14" HorizontalLabelAlignment="Center" VerticalLabelAlignment="Center" 
+        	    Opacity="0.2" Margin="592,385,0,5" Tag="8"/>
+
+            </Grid>
+        </k:KinectRegion>
+        <TextBox x:Name="StatusBox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="Holding" VerticalAlignment="Top" Width="75" Margin="413,228,0,0" TextAlignment="Center"/>
+    </Grid>
+</Window>
