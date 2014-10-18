@@ -30,9 +30,13 @@ Kinect is treated as a mouse for this application but sliders, buttons, and inte
 //Loaded += OnLoaded;
 ```
 
-Arduino also disabled by default, uncomment arduino.Open() when plugging an arduino in, COM port and Baud rates may be different.
+Arduino also disabled by default, uncomment arduino.Open() and the if statement when plugging an arduino in, COM port and Baud rates may be different.
 ```
 arduino.PortName = "COM3";
 arduino.BaudRate = 9600;
 //arduino.Open();
+//if(arduino.IsOpen && state[p]==4) {char[] fourth = {state[4]}; arduino.Write(fourth, 0, 1);}
 ```
+The last line is particularly critical, currently only the center pane of glass [4] is working as I only have one SageGlass sample.
+Further implementation is to be added once more panels arrive via donation.
+Special thanks to SageGlass for donating a demo sample of EC glazing.
