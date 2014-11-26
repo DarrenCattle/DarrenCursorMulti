@@ -37,6 +37,7 @@ namespace DarrenCursor
         double[] millis = new double[9];
         double[] hold = new double[9];
         double[] charge = new double[9];
+        String[] statemap = {"Holding", "Charging", "Holding", "Discharging", "Holding"};
 
         public MainWindow()
         {
@@ -48,13 +49,13 @@ namespace DarrenCursor
             //serial initialization
             arduino.PortName = "COM3";
             arduino.BaudRate = 9600;
-            //arduino.Open();
+            arduino.Open();
 
             //screen sizing
 
             //kinect
-            //InitializeComponent();
-            //Loaded += OnLoaded;
+            InitializeComponent();
+            Loaded += OnLoaded;
 
             //looping
             int panels = 9;
@@ -114,31 +115,26 @@ namespace DarrenCursor
               case '0': //0: no charge, not charging
                   state[p] = '1';
                   start[p] = DateTime.Now;
-                  if (p==4) { StatusBox.Text = "Charging"; }
                   break;
               case '1': //1: partially charged, charging
                   state[p] = '2';
                   hold[p] += millis[p];
-                  if (p == 4) { StatusBox.Text = "Holding"; }
                   break;
               case '2': //2: partially charged, holding
                   state[p] = hold[p] >= 120000 ? '1' : '3';
-                  if (p==4) { StatusBox.Text = hold[p] >= 120000 ? "Charging" : "Discharging";}
                   start[p] = DateTime.Now;
                   break;
               case '3': //3: partially charged, discharging
                   state[p] = '2';
                   hold[p] -= millis[p];
                   millis[p] = 0;
-                  if (p==4) { StatusBox.Text = "Holding";}
                   break;
               case '4': //4: fully charged, not charging
                   state[p] = '3';
                   start[p] = DateTime.Now;
-                  if (p==4) { StatusBox.Text = "Discharging";}
                   break;
           }
-          //if(arduino.IsOpen){arduino.Write(state, 0, 1);}
+          if (arduino.IsOpen && p==4) {char[] fourth = {state[4]}; arduino.Write(fourth, 0, 1);}
       }
 
       private void timer_Tick(object sender, EventArgs e)
@@ -151,6 +147,7 @@ namespace DarrenCursor
                 case '0': //0: no charge, not charging
                     hold[x] = 0;
                     charge[x] = 0;
+                    if (arduino.IsOpen) { char[] fourth = { state[4] }; arduino.Write(fourth, 0, 1); }
                     break;
                 case '1': //1: partially charged, charging
                     state[x] = (millis[x] + hold[x]) >= 240000 ? '4' : state[x];
@@ -158,6 +155,7 @@ namespace DarrenCursor
                     break;
                 case '2': //2: partially charged, holding
                     charge[x] = hold[x];
+                    if (arduino.IsOpen) { char[] fourth = { state[4] }; arduino.Write(fourth, 0, 1); }
                     break;
                 case '3': //3: partially charged, discharging
                     charge[x] = hold[x] - millis[x];
@@ -166,10 +164,12 @@ namespace DarrenCursor
                 case '4': //4: fully charged, not charging
                     hold[x] = 240000;
                     charge[x] = 240000;
+                    if (arduino.IsOpen) { char[] fourth = { state[4] }; arduino.Write(fourth, 0, 1); }
                     break;
             }
           }
-          //Debug.Text = "state[0]: " + state[0] + "\n" + "hold: " + hold + "\n" + "millis: " + millis + "\n" + "charge: " + charge;
+          int stat = Convert.ToInt32(state[4])-48;
+          StatusBox.Text = statemap[stat];
           Panel0.Opacity = charge[0] / 240000 + 0.2 >= 1 ? 1 : charge[0] / 240000 + 0.2;
           Panel0.Label = "Tint: " + Math.Round(charge[0] / 2400, 1) + "%, T_surf: " + Math.Round(27 - charge[0] / 60000, 1) +
                 "°C, I_tot: " + Math.Round(1000 - 1000 * charge[0] / 240000, 1) + "W/m^2";
