@@ -59,3 +59,13 @@ C:\Users\st28478\Dropbox\Work Thermal Lab\Kinect Development\DarrenCursorMulti\D
 C:\Users\Darren\Dropbox\Website\Github\DarrenCursorMulti\DarrenCursor\bin\Debug\DarrenCursor.exe.config
 C:\Users\Darren\Dropbox\Website\Github\DarrenCursorMulti\DarrenCursor\obj\Debug\DarrenCursor.exe
 C:\Users\Darren\Dropbox\Website\Github\DarrenCursorMulti\DarrenCursor\obj\Debug\DarrenCursor.pdb
+C:\Users\Darren\Dropbox\Website\Github\DarrenCursorMulti\DarrenCursor\bin\Debug\DarrenCursor.exe
+C:\Users\Darren\Dropbox\Website\Github\DarrenCursorMulti\DarrenCursor\bin\Debug\DarrenCursor.pdb
+C:\Users\Darren\Dropbox\Website\Github\DarrenCursorMulti\DarrenCursor\obj\Debug\DarrenCursor.csprojResolveAssemblyReference.cache
+C:\Users\Darren\Dropbox\Website\Github\DarrenCursorMulti\DarrenCursor\obj\Debug\MainWindow.baml
+C:\Users\Darren\Dropbox\Website\Github\DarrenCursorMulti\DarrenCursor\obj\Debug\MainWindow.g.cs
+C:\Users\Darren\Dropbox\Website\Github\DarrenCursorMulti\DarrenCursor\obj\Debug\App.g.cs
+C:\Users\Darren\Dropbox\Website\Github\DarrenCursorMulti\DarrenCursor\obj\Debug\DarrenCursor_MarkupCompile.cache
+C:\Users\Darren\Dropbox\Website\Github\DarrenCursorMulti\DarrenCursor\obj\Debug\DarrenCursor.g.resources
+C:\Users\Darren\Dropbox\Website\Github\DarrenCursorMulti\DarrenCursor\obj\Debug\DarrenCursor.Properties.Resources.resources
+C:\Users\Darren\Dropbox\Website\Github\DarrenCursorMulti\DarrenCursor\obj\Debug\DarrenCursor.csproj.GenerateResource.Cache
