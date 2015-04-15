@@ -3,6 +3,8 @@ DarrenCursorMulti
 
 Kinect + Arduino feature enabled WPF C# Application
 
+![Office Rendering](Rendering.jpg)
+
 ### History
 
 This project is a collaboration between Architects, designers, and facade technologies. 
