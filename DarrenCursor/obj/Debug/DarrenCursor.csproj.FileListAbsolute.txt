@@ -56,3 +56,6 @@ C:\Users\st28478\Dropbox\Work Thermal Lab\Kinect Development\DarrenCursorMulti\D
 C:\Users\st28478\Dropbox\Work Thermal Lab\Kinect Development\DarrenCursorMulti\DarrenCursor\obj\Debug\DarrenCursor.g.resources
 C:\Users\st28478\Dropbox\Work Thermal Lab\Kinect Development\DarrenCursorMulti\DarrenCursor\obj\Debug\DarrenCursor.Properties.Resources.resources
 C:\Users\st28478\Dropbox\Work Thermal Lab\Kinect Development\DarrenCursorMulti\DarrenCursor\obj\Debug\DarrenCursor.csproj.GenerateResource.Cache
+C:\Users\Darren\Dropbox\Website\Github\DarrenCursorMulti\DarrenCursor\bin\Debug\DarrenCursor.exe.config
+C:\Users\Darren\Dropbox\Website\Github\DarrenCursorMulti\DarrenCursor\obj\Debug\DarrenCursor.exe
+C:\Users\Darren\Dropbox\Website\Github\DarrenCursorMulti\DarrenCursor\obj\Debug\DarrenCursor.pdb
