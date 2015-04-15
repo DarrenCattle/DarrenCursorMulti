@@ -7,7 +7,7 @@ Kinect + Arduino feature enabled WPF C# Application
 
 ### History
 
-This project is a collaboration between Architects, designers, and facade technologies. 
+This project is a collaboration between Architects, Programmers, and Glass Manufacturers. 
 A Microsoft Kinect is used to add human gestural interaction to a piece of electrochromic (EC) glazing.
 EC Glazing is traditionally controlled with a switch to change the tint of the system, or automated by external variables.
 Using an Arduino, human control can be implemented without ever physically touching the EC glazing. No switches needed.
